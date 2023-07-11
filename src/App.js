@@ -1,3 +1,5 @@
+import ContainerCards from "./components/ContainerCards";
+
 function App() {
   return (
     <div className="App">
@@ -6,6 +8,7 @@ function App() {
         Get points by clicking on an image but don't click on any more than
         once!
       </p>
+      <ContainerCards />
     </div>
   );
 }
