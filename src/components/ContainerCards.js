@@ -9,8 +9,8 @@ function ContainerCards() {
     <>
       example
       <div className="wrapper">
-        {cards.map((card, id) => {
-          return <Card name={card.name} image={card.image} />;
+        {cards.map((card, key) => {
+          return <Card name={card.name} image={card.image} key={key} />;
         })}
       </div>
     </>

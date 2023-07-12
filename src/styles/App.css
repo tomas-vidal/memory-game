@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.counters {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
